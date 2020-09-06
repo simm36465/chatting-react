@@ -1,0 +1,25 @@
+.message__card{
+    padding: 15px;
+    margin: 10px;
+    width: fit-content;
+}
+.message__user{
+    margin-left: auto;
+    color: azure;
+    text-align: left inherit !important;
+}
+.message__me{
+background-color: deepskyblue !important;
+}
+.message__me:after{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+}
+
+.message__userStyle{
+    background-color: gray !important;
+    }

@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 600px;
+  margin: auto;
+}
+.App__header{
+background-color: cadetblue;
+}
+.App__body{
+  background-color:greenyellow;
+}
+.App__footer{
+  display: flex;
+}
+.App__footer > form > input{
+  padding: 8px;
+  width: max-content;
+}
